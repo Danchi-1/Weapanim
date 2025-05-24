@@ -105,6 +105,7 @@ body {
       text-align: center;
       line-height: 200px;
       cursor: pointer;
+      margin: 25px 35%;
     }
 
     #drop-area.highlight {
@@ -114,7 +115,7 @@ body {
     #preview {
       max-width: 100%;
       max-height: 150px;
-      margin-top: 150px;
+      margin: 25px 35%;
     }
 
     .form {
@@ -135,4 +136,18 @@ body {
 
     .h2-form {
       margin: 50px 35%;
+    }
+
+    .sell-submit {
+      width: 70px;
+      background-color: rgba(7, 102, 162, 0.978);
+      color: #fff;
+      margin: 0px 40%;
+      padding: 10px;
+      border: none;
+    }
+
+    .sell-submit:hover {
+      cursor: pointer;
+      font-size: medium;
     }

@@ -1,6 +1,6 @@
 document.getElementById("home").addEventListener("click", () => {
     const sellPage = 'index.html';
-    window.open(sellPage, "_self");  // Opens the link in the same tab
+    window.open(sellPage, "_self");  // Opens the link in the same   tab
 });
 
 document.getElementById("cart").addEventListener("click", () => {
@@ -60,7 +60,7 @@ dropArea.addEventListener('click', function() {
 
 function handleFiles(files) {
   files = [...files]
-  files.forEach(uploadFile) // You would likely change this to a single file upload at a time.
+  files.forEach(uploadFile) // A single file upload everytime
 }
 
 
